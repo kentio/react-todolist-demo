@@ -23,8 +23,7 @@ class TodoList extends Component {
 
   render() {
     return (
-      // UI组件
-      <TodolistUI
+      <TodolistUI        // UI组件
         inputValue={this.state.inputValue}
         list={this.state.list}
         handleInputChange={this.handleInputChange}
